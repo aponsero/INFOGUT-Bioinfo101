@@ -20,7 +20,7 @@
   title: Command line
   summary: Introduction to the command line and Bash/Unix.
   trainers: Alise Ponsero
-  status: in preparation
+  status: available
 
 - id: r
   title: R and RStudio

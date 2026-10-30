@@ -224,3 +224,38 @@ footer {
     color: $infogut-red;
   }
 }
+
+// Long tutorial pages: section separators, contents list, answer boxes
+.content hr {
+  border: 0;
+  border-top: 1px solid $infogut-line;
+  margin: 2.5em 0 1.5em;
+}
+
+#markdown-toc {
+  background: $infogut-panel;
+  border-left: 4px solid $infogut-red;
+  padding: 12px 20px 12px 36px;
+  font-size: 15px;
+  line-height: 1.7;
+
+  ul {
+    padding-left: 18px;
+  }
+}
+
+details {
+  border: 1px solid $infogut-line;
+  padding: 8px 14px;
+  margin: 12px 0 20px;
+
+  summary {
+    color: $infogut-red;
+    font-weight: 600;
+    cursor: pointer;
+  }
+}
+
+code {
+  color: $infogut-red-dark;
+}
