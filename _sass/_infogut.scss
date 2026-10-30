@@ -278,3 +278,9 @@ figure {
     padding-top: 8px;
   }
 }
+
+// Level-3 headings: the template sets "body h3" to normal weight
+body h3 {
+  font-weight: 700;
+  margin-top: 1.6em;
+}
