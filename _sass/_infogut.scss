@@ -259,3 +259,22 @@ details {
 code {
   color: $infogut-red-dark;
 }
+
+// Figures in lecture pages
+figure {
+  margin: 24px 0;
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid $infogut-line;
+  }
+
+  figcaption {
+    font-size: 14px;
+    line-height: 1.5;
+    color: $infogut-muted;
+    padding-top: 8px;
+  }
+}
