@@ -1,0 +1,59 @@
+# One entry per module.
+#   id:          folder name in modules/
+#   title:       name shown in the menu and on the home page
+#   summary:     one line shown on the home page card
+#   trainers:    authors of the material (from the Madrid 2026 programme)
+#   status:      "available" or "in preparation"
+#   in_menu:     false hides the module from the home page cards (used for "about")
+
+- id: about
+  title: About
+  in_menu: false
+
+- id: experimental-design
+  title: Experimental design
+  summary: Designing colon model experiments.
+  trainers: Eliana Ibrahimi
+  status: in preparation
+
+- id: command-line
+  title: Command line
+  summary: Introduction to the command line and Bash/Unix.
+  trainers: Alise Ponsero
+  status: in preparation
+
+- id: r
+  title: R and RStudio
+  summary: Getting started with R and RStudio, followed by hands-on practice.
+  trainers: Andrés Méndez Hurtado, Adrián Martín Segura, Alba Pérez Cuervo, Laura Judith Marcos Zambrano, Matti Ruuskanen
+  status: in preparation
+
+- id: statistics
+  title: Statistics
+  summary: Core statistics for the analysis of colon model experiments.
+  trainers: Eliana Ibrahimi
+  status: in preparation
+
+- id: microbiome
+  title: Microbiome data
+  summary: Introduction to microbiome data from colon model experiments.
+  trainers: Petra Polakovičová
+  status: in preparation
+
+- id: metabolomics
+  title: Metabolomics data
+  summary: Introduction to metabolomics concepts.
+  trainers: Anna Mascellani Bergo
+  status: in preparation
+
+- id: reproducible-research
+  title: Reproducible research
+  summary: Code management with GitHub, software environments with Conda, and workflows with Nextflow.
+  trainers: Matti Ruuskanen, Petra Polakovičová
+  status: in preparation
+
+- id: fair-data
+  title: FAIR data
+  summary: Data management and the FAIR principles.
+  trainers: Alise Ponsero
+  status: in preparation

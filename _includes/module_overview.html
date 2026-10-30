@@ -1,0 +1,9 @@
+<!-- Module summary box, built from _data/modules.yml -->
+{% assign module_id = page.categories[1] %}
+{% assign info = site.data.modules | where: "id", module_id | first %}
+<div class="panel">
+  <p><strong>{{ info.title }}</strong>: {{ info.summary }}</p>
+  <p>Authors: {{ info.trainers }}<br>
+     Level: beginner<br>
+     Status: {{ info.status }}</p>
+</div>

@@ -1,0 +1,15 @@
+<!-- Grid of module cards, built from _data/modules.yml in the order of _data/course.yml -->
+<div class="module-grid">
+  {% for module in site.data.course.modules %}
+    {% assign info = site.data.modules | where: "id", module | first %}
+    {% if info.in_menu != false %}
+      {% assign first_post = site.categories[module] | reverse | first %}
+      <a class="module-card" href="{{ site.baseurl }}{{ first_post.url }}">
+        <span class="module-number">Module {{ forloop.index0 }}</span>
+        <span class="module-title">{{ info.title }}</span>
+        <span class="module-summary">{{ info.summary }}</span>
+        <span class="module-status">{{ info.status }}</span>
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>

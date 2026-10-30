@@ -1,0 +1,33 @@
+---
+layout: base
+---
+
+<!-- Banner -->
+<header class="site-banner">
+  <div class="container">
+   <div class="row">
+    <div class="col-lg-10 offset-lg-1">
+    <div class="banner-logos">
+      {% if site.infogut_logo %}
+      <img class="logo-infogut" src="{{ site.baseurl }}/{{ site.infogut_logo }}" alt="INFOGUT">
+      {% endif %}
+      {% if site.cost_logo %}
+      <img class="logo-cost" src="{{ site.baseurl }}/{{ site.cost_logo }}" alt="COST">
+      {% endif %}
+    </div>
+    <h1>{{ site.data.course.title }}</h1>
+    <p class="banner-subtitle">{{ site.data.course.subtitle }}</p>
+    </div>
+   </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-10 offset-lg-1">
+      <section class="home">
+        {{ content }}
+      </section>
+    </div>
+  </div>
+</div>

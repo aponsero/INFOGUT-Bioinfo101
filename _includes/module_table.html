@@ -1,0 +1,20 @@
+<!-- Table of modules, built from _data/modules.yml in the order of _data/course.yml -->
+<table class="module-table">
+  <thead>
+    <tr><th>Module</th><th>Content</th><th>Authors</th><th>Status</th></tr>
+  </thead>
+  <tbody>
+  {% for module in site.data.course.modules %}
+    {% assign info = site.data.modules | where: "id", module | first %}
+    {% if info.in_menu != false %}
+      {% assign first_post = site.categories[module] | reverse | first %}
+      <tr>
+        <td><a href="{{ site.baseurl }}{{ first_post.url }}">{{ info.title }}</a></td>
+        <td>{{ info.summary }}</td>
+        <td>{{ info.trainers }}</td>
+        <td>{{ info.status }}</td>
+      </tr>
+    {% endif %}
+  {% endfor %}
+  </tbody>
+</table>

@@ -1,0 +1,24 @@
+# basic configuration
+markdown: kramdown
+permalink: /:categories/:title/
+
+# Name of the GitHub repository
+baseurl: "/INFOGUT-Bioinfo101"
+
+# Link to the advanced-level website (leave empty until it exists)
+advanced_site_url: ""
+
+# Some files we need to exclude, so Github can build the site
+exclude: [Gemfile, Gemfile.lock, README.md, vendor]
+
+defaults:
+  -
+    scope:
+      path: "modules"
+    values:
+      layout: "course_page"
+
+# Logos shown in the home page banner (paths relative to the site root)
+infogut_logo: "img/infogut-logo.jpg"
+# Add the COST logo file to img/ and uncomment the line below
+# cost_logo: "img/cost-logo.png"

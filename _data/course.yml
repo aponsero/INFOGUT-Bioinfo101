@@ -1,0 +1,16 @@
+title: Bioinformatics for colon model experiments
+subtitle: INFOGUT self-study course, beginner level
+description: Self-study tutorials to analyse microbiome and metabolomics data from in vitro colon models. No prior programming experience required.
+
+# Order of the modules in the top menu.
+# Each name must match a folder in modules/ and an entry in _data/modules.yml
+modules:
+  - about
+  - experimental-design
+  - command-line
+  - r
+  - statistics
+  - microbiome
+  - metabolomics
+  - reproducible-research
+  - fair-data
