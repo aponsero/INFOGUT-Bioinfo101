@@ -120,7 +120,7 @@ If every typo were counted as a different microbe, the sample would appear to co
 
 <figure>
   <img src="{{ site.baseurl }}/modules/microbiome/images/dada2-workflow.png" alt="DADA2 workflow: filtering and trimming, error model learning and ASV inference for each read, merging of paired reads, sequence table construction, runs merging, chimera removal and taxonomy assignment, with the corresponding DADA2 functions">
-  <figcaption>The DADA2 workflow, with the R function used at each step.</figcaption>
+  <figcaption>The DADA2 workflow, with the R function used at each step. [CITATION NEEDED: figure source]</figcaption>
 </figure>
 
 DADA2 works in three stages:

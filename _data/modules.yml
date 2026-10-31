@@ -50,7 +50,7 @@
   title: Reproducible research
   summary: Code management with GitHub, software environments with Conda, and workflows with Nextflow.
   trainers: Matti Ruuskanen, Petra Polakovičová
-  status: in preparation
+  status: available (GitHub part in preparation)
 
 - id: fair-data
   title: FAIR data

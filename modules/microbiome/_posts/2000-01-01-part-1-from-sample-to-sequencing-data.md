@@ -114,7 +114,7 @@ With 16S data, functions can only be **predicted**: tools look up which genes ar
 
 <figure>
   <img src="{{ site.baseurl }}/modules/microbiome/images/pug-and-wolf.png" alt="A pug and a wolf, both labelled Canis lupus">
-  <figcaption>Trying to predict behaviour based on species: same species, wildly different behaviour.</figcaption>
+  <figcaption>Trying to predict behaviour based on species: same species, wildly different behaviour. [CITATION NEEDED: image source]</figcaption>
 </figure>
 
 A pug and a wolf are the same species. Knowing only the species name, you would make poor predictions about how either of them behaves. Predicting what a microbial community does from a list of 16S names has the same limitation: it is an informed guess, not a measurement. If function is central to your question, shotgun metagenomics (or measuring the metabolites directly, see the [Metabolomics data module]({{ site.baseurl }}/modules/metabolomics/programme/)) gives much stronger evidence.
