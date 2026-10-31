@@ -295,3 +295,8 @@ body h3 {
     min-width: max-content;
   }
 }
+
+// Code blocks: slightly smaller text so R console output fits the column
+pre {
+  font-size: 14px;
+}
