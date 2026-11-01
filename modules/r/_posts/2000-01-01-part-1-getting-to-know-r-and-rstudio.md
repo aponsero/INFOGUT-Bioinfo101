@@ -178,7 +178,7 @@ Each hands-on part of this module comes with a notebook: the explanations, the e
 1. Download the zip file from the page and unzip it. Keep the folder as it is: the notebook sits next to an `input` folder (the data) and an `output` folder (for your results).
 2. In RStudio, open the notebook with **File > Open File**.
 3. Code chunks are the grey blocks starting with ```` ```{r} ````. To run a whole chunk, click the green triangle at its top right. To run one line, put the cursor on it and press **Ctrl + Enter** (**Cmd + Enter** on Mac).
-4. The result appears just below the chunk.
+4. The result appears just below the chunk. Tables are shown as a small interactive table that you can page through.
 5. Where a chunk is empty, write your own answer in it and run it.
 6. Save the notebook (**Ctrl + S**, **Cmd + S** on Mac): it becomes your notes.
 

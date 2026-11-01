@@ -54,7 +54,7 @@ Each condition was fermented in **two independent vessels**, R1 and R2. These ar
 | Acids and bacteria | Once in each vessel | 6 vessels = 6 measurements |
 | Insulin | The liquid from each vessel was put on the cells on 3 separate occasions, with a different batch of cells each time (the `experiment` column) | 6 vessels x 3 = 18 measurements |
 
-So the 3 insulin experiments are **not** 3 new fermentations: they are the **same** fermented liquid measured three times. They tell us how repeatable the cell assay is, not how repeatable the biology is. Telling those two things apart is one of the goals of this course, and Part 5 comes back to it.
+So the 3 insulin experiments are **not** 3 new fermentations: they are the **same** fermented liquid measured three times. They tell us how repeatable the cell assay is, not how repeatable the biology is. Telling those two things apart is one of the goals of this course, and [Part 5]({{ site.baseurl }}/modules/r/part-5-do-the-two-replicates-agree/) comes back to it.
 
 ---
 
@@ -443,4 +443,4 @@ You can also open the file from the **Files** pane to see what it contains.
 
 And remember: never touch the input files.
 
-**Next:** Part 4, handling tables with `dplyr`.
+**Next:** [Part 4: Handling tables with dplyr]({{ site.baseurl }}/modules/r/part-4-handling-tables-with-dplyr/).

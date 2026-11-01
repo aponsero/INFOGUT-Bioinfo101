@@ -44,9 +44,9 @@ Follow the parts in order. Each one builds on the previous.
 | [Part 1: Getting to know R and RStudio]({{ site.baseurl }}/modules/r/part-1-getting-to-know-r-and-rstudio/) | What R and RStudio are, the four panes, notebooks, packages. No code yet | 20 min |
 | [Part 2: First steps in R]({{ site.baseurl }}/modules/r/part-2-first-steps-in-r/) | R as a calculator, variables, vectors, data types, data frames, getting help | 45 to 60 min |
 | [Part 3: Our own data]({{ site.baseurl }}/modules/r/part-3-our-own-data/) | The experiment, reading CSV files, exploring real tables, saving results | 30 to 45 min |
-| Part 4: Handling tables with dplyr | The six `dplyr` verbs, chaining steps | In preparation |
-| Part 5: Do the two replicates agree? | Biological replicates and technical repetitions, comparing replicates | In preparation |
-| Part 6: Microbiome data in R | `phyloseq`, relative abundance, first plots with `ggplot2`, t-test, alpha and beta diversity | In preparation |
-| Part 7: TreeSummarizedExperiment and miaverse | The TreeSE object, transformations, common and rare taxa, comparing distances | In preparation |
+| [Part 4: Handling tables with dplyr]({{ site.baseurl }}/modules/r/part-4-handling-tables-with-dplyr/) | The six `dplyr` verbs, chaining steps | 60 min |
+| [Part 5: Do the two replicates agree?]({{ site.baseurl }}/modules/r/part-5-do-the-two-replicates-agree/) | Biological replicates and technical repetitions, comparing replicates | 20 to 30 min |
+| [Part 6: Microbiome data in R]({{ site.baseurl }}/modules/r/part-6-microbiome-data-in-r/) | `phyloseq`, relative abundance, first plots with `ggplot2`, t-test, alpha and beta diversity | 45 to 60 min |
+| [Part 7: TreeSummarizedExperiment and miaverse]({{ site.baseurl }}/modules/r/part-7-treesummarizedexperiment-and-miaverse/) | The TreeSE object, transformations, common and rare taxa, comparing distances | 45 to 60 min |
 
 Taught at the Madrid 2026 school as: Introduction to R and RStudio, followed by Hands-on R, sessions 1 to 4.
